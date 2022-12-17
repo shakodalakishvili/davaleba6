@@ -1,21 +1,21 @@
 .conteiner{
     max-width: 1366px;
     width: 100%;
-    height: 96px;
     margin: 0 auto;
-    background-color: #ffffff;
-    border: 2px solid red;
-    padding-top: 39px;
-    padding-left: 139px;
+    background-color: #F2F5F8;
+    
+    
 }
 
 header{
     width: 100%;
     margin: 0 auto;
-   
     display: flex;
-  align-items: center;
+    align-items: center;
     justify-content: space-around;
+    background-color: #ffffff;
+    padding-top: 39px;
+    padding-bottom: 20px;
     
 }
 
@@ -46,8 +46,8 @@ li{
 .search_box{
     align-items: center;
     display: flex;
-    margin-left: 102px;
-    padding-right: 139px;
+    /* margin-left: 102px;
+    padding-right: 139px; */
 }
 
 .fa-magnifying-glass{
@@ -55,4 +55,79 @@ li{
     background-color: #8172d5;
     padding: 5px;
     
+}
+
+/* DAIWYO SECTION */
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+
+}
+
+h2{
+    font-size: 18px;
+    margin-top: 59px;
+    margin-bottom: 28px;
+    color:#133b3a;
+}
+.cards{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+    justify-content: space-between;
+    margin-top:28px;
+}
+
+figure{
+   width: 23%;
+   height: 368px;
+   background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+
+}
+figure img{
+    width: 90%;
+    margin-bottom: 76px;
+    margin-top: 18px;
+
+}
+
+figcaption{
+width: 90%;
+}
+
+/* დაიწყო ფუტერი */
+footer{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #758bfd;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap:50px;
+    margin-top: 108px;
+    
+    
+}
+
+.footeri{
+    color: #ffffff;
+    display: flex;
+    
+}
+
+p{
+    color: #ffffff;
 }
